@@ -1,4 +1,3 @@
-from __future__ import print_function
 import argparse
 import os
 from math import log10
@@ -12,7 +11,7 @@ from torchvision.utils import save_image,save_image_cv2
 import torch.nn.functional as F
 import torchvision
 from torch.utils.data import DataLoader
-from material.models.generators import ResnetGenerator, weights_init
+from Net.models.generators import ResnetGenerator, weights_init
 import torch.backends.cudnn as cudnn
 import math
 import torchvision.transforms as transforms
