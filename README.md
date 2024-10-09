@@ -7,3 +7,8 @@ pip install torch
 pip install opencv-python
 pip install numpy
 ```
+## Usage
+###Inference
+```text
+python test.py
+```
