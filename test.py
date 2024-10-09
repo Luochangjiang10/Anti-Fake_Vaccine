@@ -7,7 +7,7 @@ import torch
 from tqdm import tqdm
 import torch.nn as nn
 import torch.optim as optim
-from torchvision.utils import save_image,save_image_cv2
+from torchvision.utils import save_image
 import torch.nn.functional as F
 import torchvision
 from torch.utils.data import DataLoader
