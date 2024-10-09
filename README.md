@@ -8,7 +8,7 @@ pip install opencv-python
 pip install numpy
 ```
 ## Usage
-###Inference
+Inference
 ```text
 python test.py
 ```
